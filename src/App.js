@@ -1,16 +1,16 @@
 
+import Button from '../src/components/Button/Button';
+import NavBar from '../src/components/NavBar/NavBar';
+
 function App() {
   return (
-    <div>Testing</div>
-  );
+    <div>
+      <NavBar/>
+      <Button/>
+      <Button/>
+    </div>
+  )
 }
-
-// import * as React from 'react';
-// import Button from '@mui/material/Button';
-
-// function App() {
-//   return <Button variant="contained">Hello World</Button>;
-// }
 
 export default App;
 
